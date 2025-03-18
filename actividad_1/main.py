@@ -1,5 +1,6 @@
 # Primer programa
-def main():
+# Funcion main o principal donde se ejecutara todo nuestro programa
+def main(): 
   while True:
     try:
 
@@ -29,6 +30,7 @@ def main():
     except ValueError:
       print("Please enter a valid number for your age.")
 
+# Funcion para calcular el rango de edad de una persona
 def calculate_age(age):
   if age == 0:
     print("Exiting the program. Goodbye!")
@@ -43,9 +45,11 @@ def calculate_age(age):
   else:
     print("You are a senior citizen")
 
+# Funcion para imprimir la comida favorita digitada por el usuario
 def favorite_food(food):
   print(f"Mi comida favorita es {food}")
 
+# Funcion para preguntar si una persona gusta el frio o el caliente
 def frioOCaliente(paylaod):
   if paylaod == "si":
     print("Me gusta el frio")
@@ -54,4 +58,4 @@ def frioOCaliente(paylaod):
 
 main() # Llamando a la función principal para iniciar el programa.
 
-# Juan David Cardona Bageth 
+# Solucion elaborada por Juan David Cardona Bageth, derechos reservados
